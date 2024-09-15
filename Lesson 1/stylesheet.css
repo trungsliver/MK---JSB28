@@ -1,0 +1,30 @@
+body{
+    /* chỉnh màu nền trang web */
+    background-color: #e3fafa;
+    /* Căn chỉnh bố cục */
+    text-align: center;
+}
+
+h1{
+    /* chỉnh màu chữ */
+    color: red;
+    /* chỉnh font chữ */
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+p{
+    /* chỉnh font chữ */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* chỉnh cỡ chữ */
+    font-size: 20px;
+    /* chỉnh độ đậm nhạt */
+    font-weight: bold;
+    /* chỉnh kiểu chữ */
+    font-style: italic;
+}
+
+img{
+    border-radius: 250px;
+    border: 2px solid black;
+    width: 250px;
+}
