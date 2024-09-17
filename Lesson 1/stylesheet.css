@@ -24,7 +24,10 @@ p{
 }
 
 img{
+    /* Chỉnh độ cong viền */
     border-radius: 250px;
+    /* Viền: kích thước - kiểu viền - màu */
     border: 2px solid black;
+    /* Chỉnh kích thước ảnh (chỉnh 1 chiều, ảnh sẽ tự scale và giữ nguyên tỉ lệ) */
     width: 250px;
 }
