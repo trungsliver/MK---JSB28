@@ -1,0 +1,38 @@
+#header-bar{
+    background-color: #ad0715;
+    color: white;
+    position: relative;
+    /* Chế độ hiển thị */
+    display: flex;
+    /* Chỉnh cách sắp xếp các thẻ con ở trong */
+    justify-content: space-around;
+    align-items: center;
+}
+
+.header-item{
+    background-color: #80030d;
+    width: 100px;
+    height: 30px;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 5px 10px;
+}
+
+#s1{
+    background-color: #80030d;
+    display: inline;
+    height: 200px;
+}
+
+#s2{
+    background-color: #1e902e;
+    display: block;
+}
+
+#s3{
+    background-color: purple;
+    display: inline-block;
+    height: 50px;
+}
