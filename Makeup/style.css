@@ -1,0 +1,58 @@
+body{
+    /* Căn giữa */
+    text-align: center;
+    /* Chỉnh màu nền */
+    background-color: #e1f7f7;
+}
+
+h1{
+    /* Chỉnh màu chữ */
+    color: red;
+}
+
+p{
+    /* Chỉnh font */
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+    /* In đậm */
+    font-weight: bold;
+    /* Cỡ chữ */
+    font-size: 20px;
+    /* In nghiêng / gạch chân */
+    font-style: italic;
+}
+
+img{
+    /* Kích thước ảnh */
+    height: 230px;
+    /* Độ bo góc */
+    border-radius: 25px;
+    /* Chỉnh viền */
+    border: 5px solid #a30b0b;
+}
+
+ul{
+    list-style-type: square;
+}
+
+ol{
+    list-style-type: lower-alpha;
+}
+
+span{
+    background-color: chartreuse;
+}
+
+#s1{
+    display: inline;
+    height: 50px;
+}
+
+#s2{
+    display: block;
+    height: 50px;
+}
+
+#s3{
+    display: inline-block;
+    height: 50px;
+}
