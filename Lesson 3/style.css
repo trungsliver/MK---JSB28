@@ -1,0 +1,32 @@
+/* CSS Selector */
+/* CSS cho toàn bộ các thẻ p */
+p{
+    color: red;
+    font-size: 22px;
+}
+
+/* CSS cho toàn bộ các thẻ có class="inside" */
+.inside{
+    color: blue;
+}
+
+/* CSS cho toàn bộ các thẻ có id="outside" */
+#outside{
+    color: green;
+}
+
+/* CSS cho tất cả các thẻ p trong div */
+div p{
+    font-weight: bold;
+}
+
+.box-model span{
+    background-color: #f7cbed;
+    /* display: inline-block; 
+    width: 120px;
+    height: 200px; */
+    text-align: center;
+    border: 2px solid red;
+    padding: 10px 20px; 
+    margin: 20px;
+}
