@@ -1,0 +1,45 @@
+.container{
+    position: relative;
+    background-color: lightblue;
+}
+
+button{
+    position: relative;
+    bottom: 10px;
+    right: 10px;
+}
+
+.menu{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: lightcoral;
+}
+
+.container2{
+    position: relative;
+    background-color: rgb(153, 242, 167);
+}
+
+.noti{
+    position: fixed;
+    top: 20px;
+    right: 100px;
+    background-color: red;
+    color: white;
+    padding: 20px;
+}
+
+.container3{
+    display: flex;
+    /* Hướng sắp xếp các element con */
+    flex-direction: row; 
+    justify-content: space-evenly;   
+}
+
+.item{
+    width: 80px;
+    background-color: bisque;
+    text-align: center;
+}
