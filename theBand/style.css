@@ -34,3 +34,55 @@
     max-width: 1000px;
     margin: auto;
 }
+
+.third{
+    width: 33.33%;
+}
+
+.row{
+    display: flex;
+}
+
+.wide{
+    letter-spacing: 4px;
+}
+
+h2{
+    font-size: 30px;
+    font-weight: 400;
+    margin: 10px 0;
+}
+
+.opacity{
+    opacity: 0.6;
+}
+
+p{
+    margin: 10px 0;
+}
+
+.w3-input{
+    padding: 8px;
+    display: block;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    width: 100%;
+}
+
+.w3-black{
+    color: white;
+    background-color: black;
+}
+
+.w3-button{
+    border: none;
+    display: inline-block;
+    padding: 8px 16px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.w3-button:hover{
+    color: black;
+    background-color: #ccc;
+}
